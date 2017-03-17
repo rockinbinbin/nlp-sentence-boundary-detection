@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 My 3 additional features:\
+\
+1) Left word is longer than 4 characters\
+In looking through the SBD.train file, I noticed that many words that aren\'92t abbreviations were at least 5 characters long. I thought that not only should there be a feature for a short left word being an abbreviation and thus being NEOS, but also a feature for a long left word not being an abbreviation and thus being EOS. \
+\
+2) Left word is a number\
+I\'92ve noticed that if a left word is a number, it generally isn\'92t an abbreviation, and most of the time is EOS. Ex: 1977. would be EOS. \
+\
+3) Right word is an empty string\
+I\'92ve noticed that if right word is an empty string, it is usually not an abbreviation and often is the EOS.\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl340\sa240\partightenfactor0
+\ls1\ilvl0\cf0 \expnd0\expndtw0\kerning0
+The accuracy of your system on the test data using all eight features (core + your own) \uc0\u8232 \kerning1\expnd0\expndtw0 \CocoaLigature0 97.98088410991636\expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+The accuracy of your system on the test data using only the five core features from the class \uc0\u8232 98.00477897252091\
+The accuracy of your system on the test data using only your own three additional features \uc0\u8232 \kerning1\expnd0\expndtw0 \CocoaLigature0 80.22700119474312\
+\ls1\ilvl0
+\fs24 \CocoaLigature1 		\expnd0\expndtw0\kerning0
+\
+}
